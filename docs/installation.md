@@ -65,6 +65,6 @@ How to do the initial NixOS installation
 ## Recovering from a bad time
 
 1. Boot into recovery environment.
-1. sudo cryptsetup luksOpen /dev/disk/by-id/ata-Samsung_SSD_870_EVO_500GB_S62ANJ0NC40669A-part2 crypt-root
+1. ~~sudo cryptsetup luksOpen /dev/disk/by-id/ata-Samsung_SSD_870_EVO_500GB_S62ANJ0NC40669A-part2 crypt-root~~
 1. sudo vgscan
 1. Continue from [Setup Boot Drive](#setup-boot-drive)'s "Mount file systems" step.
