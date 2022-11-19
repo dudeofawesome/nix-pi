@@ -1,4 +1,4 @@
-{ config, pkgs, epkgs, ... }:
+{ config, pkgs, epkgs, lib, ... }:
 {
   networking = {
     hostName = "doa-pi"; # Define your hostname.
@@ -6,7 +6,7 @@
     wireless = {
       enable = true;
       interfaces = [ "wlan0" ];
-      networks."orleans".psk = (lib.fileContents "/secret/orleans");
+      networks."orleans".psk = (lib.fileContents "/etc/secrets/orleans-psk");
     };
 
     # The global useDHCP flag is deprecated, therefore explicitly set to false here.
