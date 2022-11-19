@@ -48,7 +48,7 @@
     htop
     most
     ncdu
-    raspberrypi-tools
+    libraspberrypi
     tmux
     vim_configurable
     wget
