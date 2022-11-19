@@ -21,9 +21,7 @@
     ./disks.nix
     ./boot.nix
     ./networking.nix
-    ./fs.nix
-
-    ./kubernetes.nix
+    ./gpio.nix
   ];
 
   # Set your time zone.
